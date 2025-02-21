@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9fc8a3bd094c6da971e9e59e9883bd, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: 
+  audios:
+  - <Label>k__BackingField: ParticleCollect
+    <Clip>k__BackingField: {fileID: 8300000, guid: f06e7616b29fb6f4fa7df1d0a725f948, type: 3}
+  - <Label>k__BackingField: ParticleTransform
+    <Clip>k__BackingField: {fileID: 8300000, guid: f1a804bcccbbf8245b31be6d166cb743, type: 3}
+  - <Label>k__BackingField: UiClick
+    <Clip>k__BackingField: {fileID: 8300000, guid: 8f23132190af4394f9e2db096502ea78, type: 3}
+  - <Label>k__BackingField: WaterSplash
+    <Clip>k__BackingField: {fileID: 8300000, guid: 2754157db66dc3d4690c3a132cb6757b, type: 3}
