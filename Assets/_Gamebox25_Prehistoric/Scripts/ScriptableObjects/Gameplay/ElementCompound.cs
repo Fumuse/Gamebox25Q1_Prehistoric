@@ -4,9 +4,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "ElementCompound", menuName = "Gameplay/ElementCompound", order = 1100)]
 public class ElementCompound : ScriptableObject
 {
-    [field: SerializeField] public List<ParticleVolume> Recipe { get; } = new();
-    [field: SerializeField] public ElementType ElementType { get; } = ElementType.H;
-    [field: SerializeField] public GameObject Element { get; }
+    [field: SerializeField] public List<ParticleVolume> Recipe { get; private set; } = new();
+    [field: SerializeField] public ElementType ElementType { get; private set; } = ElementType.H;
+    [field: SerializeField] public GameObject Element { get; private set; }
 
     private Dictionary<ElementType, int> _requiredParticles = new();
 
